@@ -1,0 +1,5 @@
+Rozwiązanie aktualnie używa algorytmu Dijkstry. Algorytm Dijkstry posiada złożoność O(V+E*log(V)) gdzie V to liczba wierzchołków a E to liczba krawędzi. 
+Liczba wierzchołków to liczba pól na gridzie tj. x*y a liczba krawędzi to ~4*x*y, więc złóżoność aktualnie wynosi O(x*y+4*x*y*log(x*y)). Algorytm Dijkstry znajduje najkrótsze czasy od wierzchołka do wszystkich wierzchołków,
+więc złożoność się nie zmieni gdy będzie kilka magazynów.
+
+
